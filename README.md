@@ -1,2 +1,1 @@
-# rusty_quadtree
-Quadtree implementation in Rust
+# Spatial Indexes - Quadtree
