@@ -1,1 +1,1 @@
-# Spatial Indexes - Quadtree
+# Quadtree : Proximity Search
