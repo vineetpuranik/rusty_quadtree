@@ -100,6 +100,14 @@ cargo run
 ```
 The example will output the total number of points generated, the elapsed time for populating the points and quadtree, the number of points found using the quadtree search, and the elapsed time for the quadtree search. It will also output the number of points found using the naive search and the elapsed time for the naive search.
 
+Timing both the solutions for searching a provided search boundary across 10 runs using a set of 1 million, 10 million and 100 million points yielded the following results. The results clearly demonstrate that the Quadtree implementation is 20 to 30 times faster than the naive search solution. Note that the results may vary based on the configuration of the machine used to time the solutions. 
+
+| Points      | Quadtree | Naive search | Speedup |
+|-------------|----------|--------------|---------|
+| 1 million   | 19 us    | 4 ms         | 20      |
+| 10 million  | 1 ms     | 30 ms        | 30      |
+| 100 million | 23 ms    | 428 ms       | 20      |
+
 ## License
 This quadtree implementation is provided under the MIT License. Feel free to use and modify it according to your needs.
 
