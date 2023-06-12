@@ -109,7 +109,7 @@ Timing both the solutions for searching a provided search boundary across 10 run
 | 100 million | 23 ms    | 428 ms       | 20      |
 
 ## License
-This quadtree implementation is provided under the MIT License. Feel free to use and modify it according to your needs.
+This quadtree implementation is provided under the [Apache-2.0](LICENSE) License. Feel free to use and modify it according to your needs.
 
 ## Contributing
 Contributions are welcome! If you find any issues or want to enhance the implementation, please open an issue or submit a pull request.
